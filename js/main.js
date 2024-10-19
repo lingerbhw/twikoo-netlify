@@ -425,7 +425,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (isDown) {
           if (flag !== 'down') {
-            $header.classList.remove('nav-visible')
+            $header.classList.remove('nav-fixed', 'nav-visible')
             isChatBtn && window.chatBtn.hide()
             flag = 'down'
           }
@@ -439,7 +439,7 @@ document.addEventListener('DOMContentLoaded', () => {
       } else {
         flag = ''
         if (currentTop === 0) {
-          $header.classList.remove('nav-fixed', 'nav-visible')
+          $header.classList.remove('is-top-bar')
         }
         $rightside.classList.remove('rightside-show')
       }

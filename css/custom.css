@@ -1,0 +1,15 @@
+.loading-img {
+  background: url(/img/yjtp.png) no-repeat center center;
+  background-size: cover;
+}
+/* 颜色 */
+:root {
+  --anzhiyu-theme-op: #4259ef23;
+  --anzhiyu-white: #fff;
+  --anzhiyu-black: #000;
+  --anzhiyu-none: rgba(0, 0, 0, 0);
+  --anzhiyu-gray: #999999;
+  --anzhiyu-yellow: #ffc93e;
+  --anzhiyu-border-radius: 8px;
+  --anzhiyu-main: var(--anzhiyu-theme);
+  --anzhiyu-main-op: var(--anzhiyu-theme-op);
